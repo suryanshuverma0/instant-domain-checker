@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const whois = require('whois-json');
-const cors = require('cors');
 
 app.use(cors({
   origin: 'https://instant-domain-checker.vercel.app/' 
