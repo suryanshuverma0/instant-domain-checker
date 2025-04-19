@@ -16,7 +16,7 @@ function App() {
     setResult(null);
 
     try {
-      const res = await axios.post('http://localhost:3001/check-domain', {
+      const res = await axios.post('https://instant-domain-checker.onrender.com/check-domain', {
         domain: formattedDomain,
       });
       setResult({
